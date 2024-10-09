@@ -22,8 +22,8 @@ class PageBlogItemsTableSeeder extends Seeder
                 'name' => 'Blog',
                 'detail' => null,
                 'status' => 'Show',
-                'seo_title' => 'kingLit blog and news',
-                'seo_meta_description' => 'kingLit meta description',
+                'seo_title' => 'CMSMULTI blog and news',
+                'seo_meta_description' => 'CMSMULTI meta description',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

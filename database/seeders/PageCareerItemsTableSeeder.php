@@ -22,8 +22,8 @@ class PageCareerItemsTableSeeder extends Seeder
                 'name' => 'Career',
                 'detail' => null,
                 'status' => 'Show',
-                'seo_title' => 'kingLit meta title',
-                'seo_meta_description' => 'kingLit',
+                'seo_title' => 'CMSMULTI meta title',
+                'seo_meta_description' => 'CMSMULTI',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

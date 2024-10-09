@@ -22,8 +22,8 @@ class PageBranchItemsTableSeeder extends Seeder
                 'name' => 'Branch',
                 'detail' => null,
                 'status' => 'Show',
-                'seo_title' => 'kingLit branches',
-                'seo_meta_description' => 'kingLit is a leading technological company based in Ethiopia.',
+                'seo_title' => 'CMSMULTI branches',
+                'seo_meta_description' => 'CMSMULTI is a leading technological company based in Ethiopia.',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

@@ -22,8 +22,8 @@ class PageBoardItemsTableSeeder extends Seeder
                 'name' => 'Board',
                 'detail' => null,
                 'status' => 'Show',
-                'seo_title' => 'kingLit meta title',
-                'seo_meta_description' => 'kingLit meta data',
+                'seo_title' => 'CMSMULTI meta title',
+                'seo_meta_description' => 'CMSMULTI meta data',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

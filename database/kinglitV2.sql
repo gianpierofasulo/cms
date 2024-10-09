@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kinglite2`
+-- Database: `CMSMULTIe2`
 --
 
 -- --------------------------------------------------------
@@ -933,7 +933,7 @@ CREATE TABLE `page_blog_items` (
 --
 
 INSERT INTO `page_blog_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Blog', NULL, 'Show', 'kingLit blog and news', 'kingLit meta description', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Blog', NULL, 'Show', 'CMSMULTI blog and news', 'CMSMULTI meta description', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -957,7 +957,7 @@ CREATE TABLE `page_board_items` (
 --
 
 INSERT INTO `page_board_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Board', NULL, 'Show', 'kingLit meta title', 'kingLit meta data', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Board', NULL, 'Show', 'CMSMULTI meta title', 'CMSMULTI meta data', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -981,7 +981,7 @@ CREATE TABLE `page_branch_items` (
 --
 
 INSERT INTO `page_branch_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Branch', NULL, 'Show', 'kingLit branches', 'kingLit is a leading technological company based in Ethiopia.', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Branch', NULL, 'Show', 'CMSMULTI branches', 'CMSMULTI is a leading technological company based in Ethiopia.', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1005,7 +1005,7 @@ CREATE TABLE `page_career_items` (
 --
 
 INSERT INTO `page_career_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Career', NULL, 'Show', 'kingLit meta title', 'kingLit', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Career', NULL, 'Show', 'CMSMULTI meta title', 'CMSMULTI', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1032,7 +1032,7 @@ CREATE TABLE `page_contact_items` (
 --
 
 INSERT INTO `page_contact_items` (`id`, `name`, `detail`, `status`, `contact_address`, `contact_email`, `contact_phone`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Contact Us', '<p><br></p>', 'Show', 'Your address City\r\nYour Country', 'demo@example.com\r\nsupport@example.com', 'Office 1: +422222222222\r\nOffice 2: +433333333333', 'kingLit meta title', 'kingLit meta descrption', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Contact Us', '<p><br></p>', 'Show', 'Your address City\r\nYour Country', 'demo@example.com\r\nsupport@example.com', 'Office 1: +422222222222\r\nOffice 2: +433333333333', 'CMSMULTI meta title', 'CMSMULTI meta descrption', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1080,7 +1080,7 @@ CREATE TABLE `page_document_items` (
 --
 
 INSERT INTO `page_document_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Document', NULL, 'Show', 'kingLit meta title', 'kingLit meta description', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Document', NULL, 'Show', 'CMSMULTI meta title', 'CMSMULTI meta description', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1183,7 +1183,7 @@ CREATE TABLE `page_home_items` (
 --
 
 INSERT INTO `page_home_items` (`id`, `seo_title`, `seo_meta_description`, `why_choose_title`, `why_choose_subtitle`, `why_choose_status`, `special_title`, `special_subtitle`, `special_content`, `special_btn_text`, `special_btn_url`, `special_yt_video`, `special_bg`, `special_video_bg`, `special_status`, `service_title`, `service_subtitle`, `service_status`, `testimonial_title`, `testimonial_subtitle`, `testimonial_status`, `testimonial_bg`, `project_title`, `project_subtitle`, `project_status`, `team_member_title`, `team_member_subtitle`, `team_member_status`, `appointment_title`, `appointment_text`, `appointment_btn_text`, `appointment_btn_url`, `appointment_bg`, `appointment_status`, `latest_blog_title`, `latest_blog_subtitle`, `latest_blog_status`, `newsletter_title`, `newsletter_text`, `newsletter_bg`, `newsletter_status`, `partner_title`, `partner_subtitle`, `partner_status`, `senior_title`, `senior_subtitle`, `senior_status`, `board_title`, `board_subtitle`, `board_status`, `document_title`, `document_subtitle`, `document_status`, `about_us_title`, `about_us_subtitle`, `about_us_status`, `why_choose_bg`, `counter_title`, `counter_subtitle`, `counter_status`, `counter_bg`, `created_at`, `updated_at`) VALUES
-(1, 'kingLit', 'your meta description', 'Why Choose Us', 'You should choose our product for the following reasons', 'Show', 'Welcome to our website', 'Lorem Ipsum', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, \\r\\n\\r\\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'Read More', '#', 'UreGlSvnb1A', 'special_bg.png', 'special_video_bg.png', 'Show', 'Our Services', 'Our team always provides quality services to our valuable clients', 'Show', 'Testimonial', 'What our clients tell about us', 'Show', 'testimonial_bg.png', 'Our Projects', 'See all our completed successful projects here', 'Show', 'Team Members', 'See all our expert team members who are ready to help you always', 'Show', 'Lorem Ipsum has been the industry\'s standard', 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'Make An Appointment', '#', 'appointment_bg.png', 'Show', 'Latest Blog', 'See all the latest blog about our activity from here', 'Show', 'Newsletter', 'TO GET FREE NOTIFICATIONS SUBSCRIBE TO OUR NEWSLETTER', 'newsletter_bg.jpg', 'Show', 'Our Partners', 'See all our Partners', 'Show', 'Senior Management', 'See all our Senior Management', 'Show', 'Board of Directors', 'Lorem Ipsum has been the industry\'s standard', 'Show', 'Public Documents & Files', 'See All Document', 'Show', 'About Us', 'About our Business', 'Show', '', 'counter', 'counter section', 'Show', 'counter_bg.png', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'CMSMULTI', 'your meta description', 'Why Choose Us', 'You should choose our product for the following reasons', 'Show', 'Welcome to our website', 'Lorem Ipsum', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, \\r\\n\\r\\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'Read More', '#', 'UreGlSvnb1A', 'special_bg.png', 'special_video_bg.png', 'Show', 'Our Services', 'Our team always provides quality services to our valuable clients', 'Show', 'Testimonial', 'What our clients tell about us', 'Show', 'testimonial_bg.png', 'Our Projects', 'See all our completed successful projects here', 'Show', 'Team Members', 'See all our expert team members who are ready to help you always', 'Show', 'Lorem Ipsum has been the industry\'s standard', 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'Make An Appointment', '#', 'appointment_bg.png', 'Show', 'Latest Blog', 'See all the latest blog about our activity from here', 'Show', 'Newsletter', 'TO GET FREE NOTIFICATIONS SUBSCRIBE TO OUR NEWSLETTER', 'newsletter_bg.jpg', 'Show', 'Our Partners', 'See all our Partners', 'Show', 'Senior Management', 'See all our Senior Management', 'Show', 'Board of Directors', 'Lorem Ipsum has been the industry\'s standard', 'Show', 'Public Documents & Files', 'See All Document', 'Show', 'About Us', 'About our Business', 'Show', '', 'counter', 'counter section', 'Show', 'counter_bg.png', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1308,7 +1308,7 @@ CREATE TABLE `page_senior_items` (
 --
 
 INSERT INTO `page_senior_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Senior', NULL, 'Show', 'kingLit senior management', 'kingLit senior managements', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Senior', NULL, 'Show', 'CMSMULTI senior management', 'CMSMULTI senior managements', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1332,7 +1332,7 @@ CREATE TABLE `page_service_items` (
 --
 
 INSERT INTO `page_service_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Services', NULL, 'Show', 'kingLit Services', 'kingLit is a leading technological company based in Ethiopia.', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Services', NULL, 'Show', 'CMSMULTI Services', 'CMSMULTI is a leading technological company based in Ethiopia.', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 
@@ -1356,7 +1356,7 @@ CREATE TABLE `page_shop_items` (
 --
 
 INSERT INTO `page_shop_items` (`id`, `name`, `detail`, `status`, `seo_title`, `seo_meta_description`, `created_at`, `updated_at`) VALUES
-(1, 'Shop', NULL, 'Show', 'meta title Shop', 'kingLit data', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
+(1, 'Shop', NULL, 'Show', 'meta title Shop', 'CMSMULTI data', '2024-04-19 02:16:41', '2024-04-19 02:16:41');
 
 -- --------------------------------------------------------
 

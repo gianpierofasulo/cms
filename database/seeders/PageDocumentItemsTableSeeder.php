@@ -22,8 +22,8 @@ class PageDocumentItemsTableSeeder extends Seeder
                 'name' => 'Document',
                 'detail' => null,
                 'status' => 'Show',
-                'seo_title' => 'kingLit meta title',
-                'seo_meta_description' => 'kingLit meta description',
+                'seo_title' => 'CMSMULTI meta title',
+                'seo_meta_description' => 'CMSMULTI meta description',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

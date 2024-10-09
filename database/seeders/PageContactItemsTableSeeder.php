@@ -25,8 +25,8 @@ class PageContactItemsTableSeeder extends Seeder
                 'contact_address' => "Your address City\r\nYour Country",
                 'contact_email' => "demo@example.com\r\nsupport@example.com",
                 'contact_phone' => "Office 1: +422222222222\r\nOffice 2: +433333333333",
-                'seo_title' => 'kingLit meta title',
-                'seo_meta_description' => 'kingLit meta descrption',
+                'seo_title' => 'CMSMULTI meta title',
+                'seo_meta_description' => 'CMSMULTI meta descrption',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

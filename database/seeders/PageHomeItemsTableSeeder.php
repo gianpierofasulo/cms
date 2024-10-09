@@ -19,7 +19,7 @@ class PageHomeItemsTableSeeder extends Seeder
         DB::table('page_home_items')->insert([
             [
                 'id' => 1,
-                'seo_title' => 'kingLit',
+                'seo_title' => 'CMSMULTI',
                 'seo_meta_description' => 'your meta description',
                 'why_choose_title' => 'Why Choose Us',
                 'why_choose_subtitle' => 'You should choose our product for the following reasons',

@@ -23,7 +23,7 @@ class PageShopItemsTableSeeder extends Seeder
                 'detail' => NULL,
                 'status' => 'Show',
                 'seo_title' => 'meta title Shop',
-                'seo_meta_description' => 'kingLit data',
+                'seo_meta_description' => 'CMSMULTI data',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
